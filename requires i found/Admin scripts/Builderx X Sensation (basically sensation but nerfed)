@@ -1,7 +1,17 @@
---my ver of sensation its just cewl colors i think
-require(124584018000091)("YourNameHere", ColorSequence.new({
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 240, 255)),    -- Neon Cyan/Blue
-    ColorSequenceKeypoint.new(0.33, Color3.fromRGB(0, 255, 100)), -- Neon Green
-    ColorSequenceKeypoint.new(0.66, Color3.fromRGB(255, 0, 50)),  -- Neon Red
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 240, 0))     -- Neon Yellow
+-- Cosmic Sensation
+require(124584018000091)("Put Your Username Here", ColorSequence.new({
+	-- [Point 1]: Transitions from Electric Cyan -> Deep Cosmic Sapphire -> Royal Violet
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 255)),   
+	
+	-- [Point 2]: Transitions from Royal Violet -> Radioactive Mint -> Plasma Green
+	ColorSequenceKeypoint.new(0.25, Color3.fromRGB(180, 0, 255)), 
+	
+	-- [Point 3]: Transitions from Plasma Green -> Solar Gold -> Crimson Laser
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 0)),    
+	
+	-- [Point 4]: Transitions from Crimson Laser -> Neon Magenta -> Electric Yellow
+	ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 0, 100)), 
+	
+	-- [Point 5]: Transitions from Electric Yellow -> Supernova Orange -> Back to Cyan (Loop)
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 0))    
 }), "Scribble")
