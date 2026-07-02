@@ -1,1 +1,7 @@
-require(124584018000091)(game.Players.LocalPlayer.Name, ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), "BuilderX")
+--my ver of sensation its just cewl colors i think
+require(124584018000091)("YourNameHere", ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 240, 255)),    -- Neon Cyan/Blue
+    ColorSequenceKeypoint.new(0.33, Color3.fromRGB(0, 255, 100)), -- Neon Green
+    ColorSequenceKeypoint.new(0.66, Color3.fromRGB(255, 0, 50)),  -- Neon Red
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 240, 0))     -- Neon Yellow
+}), "Scribble")
